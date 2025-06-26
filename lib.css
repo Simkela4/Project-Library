@@ -1,0 +1,8 @@
+.book-card {
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 250px;
+  }
