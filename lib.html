@@ -7,6 +7,32 @@
     <title>Document</title>
 </head>
 <body>
+    <dialog id="dialog">
+        <form method="dialog" id="bookForm">
+        <p>
+            <label>Name:
+                <input type="text" id="titleInput" required>
+            </label>
+            <label>Author:
+                <input type="text" id="authorInput" required>
+            </label>
+            <label> Pages:
+                <input type="text" id="pagesInput" required>
+            </label>
+            <label>
+                <input type="checkbox" id="readInput"> Read?
+            </label>
+
+
+        </p>
+        <div>
+            <input type="submit" id="js-close" value="Submit" />
+        </div>
+    </form>
+    </dialog>
+    <p>
+        <button id="add">Add a book</button>
+    </p>
     <div id="book-list"></div>
     <script src="lib.js"></script>
 </body>
